@@ -3,7 +3,7 @@
 
 Dans l'optique d'avoir un circuit optimal entre le module LoRa et le capteur de gaz présentés dans la partie MOSH ci-dessus, nous avons réalisé un shield qui dans l'idéal permettrait de pouvoir directement connecter notre capteur et notre émetteur de manière simplifiée.
 
-Pour le schéma électrique, nous avons crée un composant représentant notre capteur de gaz et nous nous sommes basé sur ce que nous avons vu en cours avec Mr Nouillet :
+Pour le schéma électrique, nous avons crée un composant représentant notre capteur de gaz et nous nous sommes basé sur ce que nous avons vu en cours :
 
 ![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/schema.png "Figure 1: Schéma du circuit électrique du shield")
 
