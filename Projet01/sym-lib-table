@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ISSLib)(type Legacy)(uri D:/Workspace/Github/MOSH_GazSensor/Projet01/Lib/ISSLib.lib)(options "")(descr ""))
+  (lib (name RN2483)(type Legacy)(uri D:/Workspace/Github/MOSH_GazSensor/Projet01/Lib/RN2483_Breakout.lib)(options "")(descr ""))
+  (lib (name Projet01-rescue)(type Legacy)(uri ${KIPRJMOD}/Projet01-rescue.lib)(options "")(descr ""))
+)
