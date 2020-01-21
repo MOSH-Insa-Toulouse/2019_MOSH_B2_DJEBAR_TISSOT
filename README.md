@@ -86,3 +86,8 @@ Les données ainsi récupérées peuvent ensuite être affichée sur sous forme 
 
 ![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/figure5.png "Figure 5 : Visualisation des données du capteur") 
 
+##### Intégration avec le PCB conçu sur KiCad
+
+Le PCB que nous avons crée avec le logiciel KiCad a pour vocation d'être utilisé conjointement avec ce que nous avons développé durant les séances de Mosh (code Arduino, dashboard...). Ce PCB est un shield qui se met par dessus l'arduino. Il permet ainsi d'utiliser directement le module Lora sans avoir à réaliser trop de branchements et permet d'acquérir les données issus du capteur de température que nous avons créé lors des séances d'AIME. 
+Ainsi avec ce système, nous serions capable d'envoyer les donneés du capteur de gaz sur TTN en utilisant le réseau LoRa. On peut imaginer par la suite une multitude d'applications, par exemple une alarme pourrait être reliée au réseau TTN et se déclencher lorsqu'une valeur est estimée anormale.
+
