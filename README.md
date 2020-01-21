@@ -5,19 +5,19 @@ Dans l'optique d'avoir un circuit optimal entre le module LoRa et le capteur de 
 
 Pour le schéma électrique, nous avons crée un composant représentant notre capteur de gaz et nous nous sommes basé sur ce que nous avons vu en cours :
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/schema.png "Figure 1: Schéma du circuit électrique du shield")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/PCB_Kicad/ImagesPCB/schema.png "Figure 1: Schéma du circuit électrique du shield")
 
 Une fois le schéma électrique réalisé, il faut placer les différents composant sur le shield et les relier entre eux avec des pistes. C'est une partie complexe car il y'a beaucoup de contraintes à prendre en compte comme l'agencement des composants ou le fait que l'on puisse créer nos vias des deux cotés du shield.
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/Pcb.PNG "Figure 2: Positionnement des pistes")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/PCB_Kicad/ImagesPCB/Pcb.PNG "Figure 2: Positionnement des pistes")
 
 Une fois ces deux parties réalisées (schéma électrique et agencement), on peut visualiser notre modèle 3D final.
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/3dVisu1.PNG "Figure 3: Vue 3D de coté")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/PCB_Kicad/ImagesPCB/3dVisu1.PNG "Figure 3: Vue 3D de coté")
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/3dVisu2.PNG "Figure 4: Vue 3D de dessus")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/PCB_Kicad/ImagesPCB/3dVisu2.PNG "Figure 4: Vue 3D de dessus")
 
-![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/ImagesPCB/3dVisu3.PNG "Figure 5: Vue 3D de dessous")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/PCB_Kicad/ImagesPCB/3dVisu3.PNG "Figure 5: Vue 3D de dessous")
 
 ## MOSH
 
