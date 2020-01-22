@@ -35,14 +35,14 @@ A partir du moment ou nous pensions maîtriser la carte, nous avons décidé de 
 
 La première étape fut de fabriquer l'émetteur/récepteur LoRa qui nous permettra par la suite de transmettre les données collectées par le capteur de gaz. Nous avions à notre disposition une puce RN 2483 permettant la communication LoRa et un support, sur lequel nous devions souder la puce. Afin de réaliser ce soudage, la lecture de la datasheet nous fut très utile et en particulier ce schéma :
 
-![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/pins.jpg "Figure 1: Pins de la puce RN 2483")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/MOSH/Images/pins.jpg "Figure 1: Pins de la puce RN 2483")
 
 A partir de ce schéma nous avons pu limiter le travail de soudage puisqu’il nous a permis de savoir de quels pins nous avions besoin. Il a également fallu souder l’antenne afin que le dispositif puisse fonctionner. 
 
 
 Le résultat obtenu est le suivant :
 
-![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/module.JPG "Figure 2 : Emetteur/Récepteur LoRa")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/MOSH/Images/module.JPG "Figure 2 : Emetteur/Récepteur LoRa")
 
 ##### 2ème étape : La mise en place
 
@@ -67,7 +67,7 @@ Afin de faire communiquer notre module LoRa précédemment validé, nous avons s
 Nous l’avons ensuite testé en générant des valeurs aléatoires afin de vérifier la bonne réception des données. 
 On constate un petit délai ainsi que le besoin de réaliser l’affichage pour éviter un blocage au bout d’un certain nombre de données reçues.
   
-![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/figure3.png "Figure 3 : Réception des données sur The Things Network")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/MOSH/Images/figure3.png "Figure 3 : Réception des données sur The Things Network")
 
 
 
@@ -78,13 +78,12 @@ Ensuite pour récupérer et traiter les données, il suffit de mettre en place c
 
  
 Inline-style: 
-![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/figure4.png
- "Figure 4 : Récupération des données sur NodeRed")
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/MOSH/Images/figure4.png "Figure 4 : Récupération des données sur NodeRed")
 
 
 Les données ainsi récupérées peuvent ensuite être affichée sur sous forme de graphique, et on obtient ainsi le dashboard demandé.
 
-![alt text](https://github.com/mystofake/MOSH_GazSensor/blob/master/MOSH/Images/figure5.png "Figure 5 : Visualisation des données du capteur") 
+![alt text](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B2_DJEBAR_TISSOT/blob/master/MOSH/Images/figure5.png "Figure 5 : Visualisation des données du capteur") 
 
 ##### Intégration avec le PCB conçu sur KiCad
 
